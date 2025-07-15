@@ -1,2 +1,13 @@
 # gouravchpr.github.io
+
+## Introduction
+
+Hi my name is Gourav Chopra.
+
+I am a certified Java professional with 3 years of hands-on experience in Core and Advanced Java, Spring Boot, and Oracle. I have a proven track record of successfully delivering impactful projects, including a Trustly Payment Integration that enhanced customer experience and increased conversion rates by 30%.
+
+My technical proficiency spans backend development with Java and Spring Boot, frontend technologies like React.js, and databases such as MySQL and MongoDB. I bring strong problem-solving skills, a commitment to clean code, and the ability to work effectively in Agile teams. I'm passionate about building scalable, high-performance applications and continuously learning emerging technologies to drive business success.
+
+---
+
 Gourav Chopra
