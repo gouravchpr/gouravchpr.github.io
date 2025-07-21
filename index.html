@@ -21,11 +21,19 @@
   <link rel="stylesheet" href="style.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
      crossorigin="anonymous"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXXXX-X');
+  </script>
 </head>
 <body>
   <button class="dark-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
-  <div class="container">
-    <img src="image.jpg" alt="Gourav Chopra Photo" style="display:block;margin:auto;width:140px;height:140px;object-fit:cover;border-radius:50%;border:4px solid #2c3e50;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:1.5rem;" />
+  <div class="container" role="main">
+    <img src="image.jpg" alt="Portrait of Gourav Chopra" style="display:block;margin:auto;width:140px;height:140px;object-fit:cover;border-radius:50%;border:4px solid #2c3e50;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:1.5rem;" />
     <h1>Gourav Chopra</h1>
     <h2>Certified Java Professional</h2>
     <div class="social-links">

@@ -1,27 +1,138 @@
-body { font-family: Arial, sans-serif; margin: 2rem; background: #f9f9f9; color: #222; transition: background 0.3s, color 0.3s; }
-.container { max-width: 800px; margin: auto; background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-h1 { color: #2c3e50; }
-h2 { color: #34495e; margin-top: 2rem; }
-.social-links a { margin-right: 1rem; text-decoration: none; color: #0077b5; font-weight: bold; }
-.skills-list { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; flex-direction: column; }
-.skills-list span { background: #e3e3e3; padding: 0.5rem 1rem; border-radius: 20px; font-size: 1rem; }
-.projects { margin: 1rem 0; }
-.project { background: #f4f8fb; padding: 1rem; border-radius: 6px; margin-bottom: 1rem; }
-.resume-btn { display: inline-block; margin: 1rem 0; padding: 0.7rem 1.5rem; background: #2c3e50; color: #fff; border-radius: 25px; text-decoration: none; font-weight: bold; transition: background 0.2s; }
-.resume-btn:hover { background: #0077b5; }
-.contact-section { margin: 2rem 0; }
-.contact-section a { color: #2c3e50; text-decoration: underline; }
-.dark-mode { background: #181c23; color: #f3f6fa; }
-.dark-mode .container { background: #232a36; color: #f3f6fa; box-shadow: 0 2px 16px rgba(0,0,0,0.25); }
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 { color: #fff; }
-.dark-mode .social-links a { color: #4fc3f7; }
-.dark-mode .skills-list span { background: #283040; color: #e0e6ef; }
-.dark-mode .project { background: #283040; border: 1px solid #34495e; }
-.dark-mode .resume-btn { background: #4fc3f7; color: #181c23; }
-.dark-mode .resume-btn:hover { background: #81d4fa; color: #181c23; }
-.dark-mode .contact-section a { color: #4fc3f7; }
-.dark-mode .dark-toggle { background: #232a36; color: #fff; border: 1px solid #4fc3f7; }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f9f9f9;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Header Styles */
+h1 {
+  color: #2c3e50;
+}
+h2 {
+  color: #34495e;
+  margin-top: 2rem;
+}
+
+/* Link Styles */
+.social-links a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
+}
+
+/* Skills Section */
+.skills-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  flex-direction: column;
+}
+.skills-list span {
+  background: #e3e3e3;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+/* Projects Section */
+.projects {
+  margin: 1rem 0;
+}
+.project {
+  background: #f4f8fb;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+/* Button Styles */
+.resume-btn {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.7rem 1.5rem;
+  background: #2c3e50;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.resume-btn:hover {
+  background: #0077b5;
+}
+
+/* Contact Section */
+.contact-section {
+  margin: 2rem 0;
+}
+.contact-section a {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+/* Dark Mode Enhancements */
+.dark-mode {
+  background: #181c23;
+  color: #f3f6fa;
+}
+.dark-mode .container {
+  background: #232a36;
+  color: #f3f6fa;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.25);
+}
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+  color: #fff;
+}
+.dark-mode .social-links a {
+  color: #4fc3f7;
+}
+.dark-mode .skills-list span {
+  background: #283040;
+  color: #e0e6ef;
+}
+.dark-mode .project {
+  background: #283040;
+  border: 1px solid #34495e;
+}
+.dark-mode .resume-btn {
+  background: #4fc3f7;
+  color: #181c23;
+}
+.dark-mode .resume-btn:hover {
+  background: #81d4fa;
+  color: #181c23;
+}
+.dark-mode .contact-section a {
+  color: #4fc3f7;
+}
+.dark-mode .dark-toggle {
+  background: #232a36;
+  color: #fff;
+  border: 1px solid #4fc3f7;
+}
+
+/* Responsive Design */
 @media (max-width: 600px) {
-  .container { padding: 1rem; }
-  .skills-list { flex-direction: column; gap: 0.5rem; }
-} 
+  .container {
+    padding: 1rem;
+  }
+  .skills-list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
